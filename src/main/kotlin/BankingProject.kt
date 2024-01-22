@@ -1,6 +1,6 @@
 class Account(val accountName: String) {
 
-    var balance = 0
+    private var balance = 0
     private var transactions = mutableListOf<Int>()
 
     fun deposit(amount: Int) {
